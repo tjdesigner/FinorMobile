@@ -4,8 +4,8 @@ export default {
         secondary: '#777777',
         secondary_light: 'rgba(119, 119, 119,.3)',
 
-        success: '',
-        success_light: '',
+        success: '#12A454',
+        success_light: 'rgba(18, 164, 84, .3)',
 
         danger: '#E83F5B',
         danger_light: 'rgba(232, 63, 91, .3)',
