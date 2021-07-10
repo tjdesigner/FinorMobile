@@ -1,6 +1,7 @@
 import { StatusBar } from 'react-native'
 import styled from 'styled-components/native'
-import theme from './theme'
+
+const statusBarHeight = `${StatusBar.currentHeight}px`
 
 interface PlatformProps {
     whatPlatform: string
@@ -8,6 +9,6 @@ interface PlatformProps {
 
 export const SafeAreaMainView = styled.SafeAreaView<PlatformProps>`
     flex: 1;
-    background: ${theme.colors.shape};
-    padding-top: ${props => props.whatPlatform === 'android' ? StatusBar.currentHeight: 0};
+    background: ${({theme}) => theme.colors.shape};
+    padding: ${props => props.whatPlatform === 'android' ? statusBarHeight : 0} ${({theme}) => theme.paddings.large} ${({theme}) => theme.paddings.large};
 `
