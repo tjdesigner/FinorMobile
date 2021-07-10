@@ -1,6 +1,7 @@
 import { StatusBar } from 'react-native'
 import styled from 'styled-components/native'
 
+
 const statusBarHeight = `${StatusBar.currentHeight}px`
 
 interface PlatformProps {

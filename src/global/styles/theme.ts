@@ -43,8 +43,11 @@ export default {
         xxxLarge: '48px',
     },
 
-    fontsWeight: {
-        initial: '400',
-        bold: 'bold',
+    fontsFamily: {
+        light: 'Nunito-Light',
+        regular: 'Nunito-Regular',
+        semiBold: 'Nunito-SemiBold',
+        bold: 'Nunito-Bold',
+        black: 'Nunito-Black'
     }
 }
