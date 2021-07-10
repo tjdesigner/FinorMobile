@@ -6,4 +6,7 @@ export const Container = styled.View`
 
 export const Title = styled.Text`
     color: #000;
+    font-family: 'Nunito-Regular';
+    font-size: ${({ theme }) => theme.fontsSize.xxLarge};
+    text-align: center;
 `

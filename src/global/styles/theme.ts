@@ -40,6 +40,7 @@ export default {
         large: '24px',
         xLarge: '32px',
         xxLarge: '40px',
+        xxxLarge: '48px',
     },
 
     fontsWeight: {
