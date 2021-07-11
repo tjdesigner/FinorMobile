@@ -8,8 +8,8 @@ import Dashboard from './screens/Dashboard'
 
 const App: FC = () => (
   <ThemeProvider theme={theme}>
-    <StatusBar backgroundColor='rgba(0,0,0,.1)' translucent={true} barStyle='dark-content' />
-    <SafeAreaMainView whatPlatform={Platform.OS}>
+    <StatusBar backgroundColor='rgba(0,0,0,.1)' translucent={true} barStyle='light-content' />
+    <SafeAreaMainView>
       <Dashboard />
     </SafeAreaMainView>
   </ThemeProvider>
